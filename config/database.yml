@@ -1,3 +1,4 @@
+
 default: &default
   adapter: mysql2
   encoding: utf8
@@ -17,3 +18,4 @@ test:
 production:
   <<: *default
   database: apartment
+
